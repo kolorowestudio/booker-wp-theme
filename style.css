@@ -1,0 +1,65 @@
+/*
+Theme Name: Booker On Twenty Twenty-Two
+Theme URI: https://wordpress.org/themes/twentytwentytwo-child/
+Author: Marcin Ksiazkiewcz
+Author URI: https://kolorowestudio.org/
+Description: Twenty Twenty-Two Modification
+Tested up to: 6.0
+Requires PHP: 5.6
+Version: 1.0
+License: Private
+Template:     twentytwentytwo
+*/
+
+/* Functional */
+
+.width-100 {
+	width: 100% !important;
+
+}
+
+/* Header */
+
+header .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+    height: 3px;
+}
+
+h1.wp-block-site-title a {
+	text-decoration: none;
+	height: 3px;
+}
+
+/* Home page */
+
+/*
+.is-portfolio-list .wp-block-post {
+	position: relative;
+}
+*/
+
+.is-portfolio-list .is-absolute-image {
+	margin: -6rem 0px;
+}
+
+/* Videos */
+
+.is-video-mobile-wrapper {
+	/* remember to apply size */
+}
+
+.is-video-mobile-inner {
+	width: 100%;
+	height: auto;
+}
+
+/* Video sizing */
+.is-video-mobile-m {
+	width: 420px;
+	height: 712px;
+	padding: 14px;
+}
+
+/* utility */
+
+.td-none,
+.wp-block-post-title a { text-decoration: none !important; } 
