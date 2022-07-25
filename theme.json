@@ -55,10 +55,10 @@
 					"colossal": "clamp(3.25rem, 8vw, 6.25rem)"
 				},
 				"line-height": {
-					"tiny": 1.15,
-					"small": 1.2,
-					"medium": 1.4,
-					"normal": 1.6
+					"tiny": 0.875,
+					"small": 1,
+					"medium": 1.125,
+					"normal": 1.5
 				}
 			}
 		},
@@ -84,14 +84,14 @@
 					"slug": "large"
 				},
 				{
-					"size": "clamp(1.75rem, 3vw, 2.25rem)",
+					"size": "clamp(1.75rem, 2.5vw, 2rem)",
 					"slug": "x-large"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "640px",
-			"wideSize": "1000px"
+			"contentSize": "740px",
+			"wideSize": "1140px"
 		}
 	},
 	"styles": {

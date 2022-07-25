@@ -43,21 +43,67 @@ h1.wp-block-site-title a {
 
 /* Videos */
 
-.is-video-mobile-wrapper {
+.is-video-mobile {
 	/* remember to apply size */
+	/*background-image: url("assets/images/frame-mobile.png");
+	background-size: cover;
+	padding: 14px;*/
+	position: relative;
+}
+.is-video-mobile-inner,
+.is-video-mobile-secondary {}
+
+figure.is-mobile-frame {
+	border: solid 7px #474747;
+    border-radius: 24px;
+    background: white;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin-top: -7rem;
+    z-index: 2;
+    width: 13rem;
+    height: 24rem;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
 }
 
-.is-video-mobile-inner {
-	width: 100%;
-	height: auto;
+.is-video-mobile video {
+    overflow: hidden;
+    border-radius: 17px;
+    object-fit: contain;
+}
+
+figure.is-video-mobile-secondary {
+	margin-top: -10rem;
+	margin-left: 10rem;
+	z-index: 1;
+
+}
+
+.is-mobile-frame:before {
+	content: "";
+    position: absolute;
+    background: #474747;
+    top: -1px;
+    width: 50%;
+    height: 4.2%;
+    left: 25%;
+    border-radius: 0 0 12px 12px;
+}
+
+.is-mobile-frame:after {
+	content: "";
+    position: absolute;
+    background: #6A6A6A;
+    top: 4px;
+    width: 10%;
+    height: 1%;
+    left: 45%;
+    border-radius:8px;
 }
 
 /* Video sizing */
-.is-video-mobile-m {
-	width: 420px;
-	height: 712px;
-	padding: 14px;
-}
+.is-video-mobile-m {}
 
 /* utility */
 
