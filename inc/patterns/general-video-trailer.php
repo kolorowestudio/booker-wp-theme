@@ -5,8 +5,8 @@
 return array(
 	'title'      => __( 'Video trailer', 'twentytwentytwo' ),
 	'categories' => array( 'featured', 'columns' ),
-	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"12rem","right":"0px","bottom":"12rem","left":"0px"}}},"layout":{"inherit":true}} -->
-	<div class="wp-block-group alignfull" style="padding-top:12rem;padding-right:0px;padding-bottom:12rem;padding-left:0px">
+	'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","right":"0px","bottom":"8rem","left":"0px"}}},"layout":{"inherit":true}} -->
+	<div class="wp-block-group alignfull" style="padding-top:8rem;padding-right:0px;padding-bottom:8rem;padding-left:0px">
 
 				<!-- wp:group {"align":"wide","style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}},"spacing":{"padding":{"top":"4rem","right":"4rem","bottom":"4rem","left":"4rem"}}},"backgroundColor":"primary","textColor":"foreground","layout":{"inherit":true}} -->
 				<div class="wp-block-group alignwide has-foreground-color has-primary-background-color has-text-color has-background has-link-color" style="padding-top:4rem;padding-right:4rem;padding-bottom:4rem;padding-left:4rem"><!-- wp:columns {"align":"wide"} -->

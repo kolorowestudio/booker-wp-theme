@@ -4,7 +4,7 @@
  *
  */
 
-
+/*
 if ( ! function_exists( 'twentytwentytwochild_styles' ) ) :
 
 	function twentytwentytwochild_styles() {
@@ -26,12 +26,14 @@ if ( ! function_exists( 'twentytwentytwochild_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'twentytwentytwochild_styles' );
+*/
 
 
-add_action( 'wp_enqueue_scripts', 'my_plugin_add_stylesheet' );
 function my_plugin_add_stylesheet() {
     wp_enqueue_style( 'my-style', get_stylesheet_directory_uri() . '/style.css', false, '1.0', 'all' );
 }
+
+add_action( 'wp_enqueue_scripts', 'my_plugin_add_stylesheet', 11 );
 
 // End of theme settings ================================================================================
 
@@ -108,4 +110,9 @@ function featured_video_save( $post_id, $post ) {
 
 	return $post_id;
 
+}
+
+add_action('wp_enqueue_scripts', 'booker_custom_js');
+function booker_custom_js() {
+    wp_enqueue_script('custom', get_stylesheet_directory_uri().'/assets/js/booker.js');
 }
